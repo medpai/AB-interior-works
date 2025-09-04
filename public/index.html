@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#14b8a6" />
+    <meta
+      name="description"
+      content="AB Interior Works — Premium interior painting in Ottawa. Professional wall prep, flawless finishes, cabinet refinishing, and expert color consultation for high-end interiors."
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!-- Preconnects and Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <!-- Manifest -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+    -->
+    <title>AB Interior Works | Premium Interior Painting</title>
+    <meta name="author" content="AB Interior Works" />
+    <link rel="canonical" href="/" />
+    <meta name="robots" content="index,follow" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AB Interior Works | Premium Interior Painting" />
+    <meta property="og:description" content="Premium interior painting in Ottawa. Flawless finishes, cabinet refinishing, color consultation." />
+    <meta property="og:image" content="%PUBLIC_URL%/logo512.png" />
+    <meta property="og:url" content="/" />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AB Interior Works | Premium Interior Painting" />
+    <meta name="twitter:description" content="Premium interior painting in Ottawa. Flawless finishes, cabinet refinishing, color consultation." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/logo512.png" />
+    <!-- LocalBusiness Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HousePainter",
+        "name": "AB Interior Works",
+        "url": "/",
+        "image": "%PUBLIC_URL%/logo512.png",
+        "telephone": "+1-343-254-5205",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ottawa",
+          "addressRegion": "ON",
+          "addressCountry": "CA"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Ottawa" },
+          { "@type": "City", "name": "Kanata" },
+          { "@type": "City", "name": "Nepean" },
+          { "@type": "City", "name": "Orleans" }
+        ],
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "08:00", "closes": "18:00" }
+        ]
+      }
+    </script>
+    <!-- FAQPage Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How quickly can you start?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most projects start within 1–2 weeks. Smaller jobs may be scheduled sooner based on availability."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you move and protect furniture?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We carefully protect floors and furniture, and we handle minor moving as part of prep."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What paint brands do you use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We recommend premium, low‑VOC paints from Benjamin Moore and Sherwin‑Williams for durable finishes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is there a warranty?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely. All workmanship is backed by a 2‑year warranty."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      // Runtime webhook fallback for quote notifications (ntfy.sh)
+      // This lets the app send push notifications without needing a restart for env changes.
+      window.__QUOTE_WEBHOOK = 'https://ntfy.sh/ab-interior-quotes-9f2c7a12';
+    </script>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

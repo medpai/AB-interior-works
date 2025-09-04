@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* shadcn-like theme tokens used by Tailwind (HSL components) */
+:root {
+  --tw-background: 222 84% 6%;
+  --tw-foreground: 210 40% 98%;
+  --tw-primary: 172 66% 40%;
+  --tw-primary-foreground: 210 40% 98%;
+}

@@ -1,0 +1,18 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#14b8a6" opacity="0.1" stroke="#14b8a6" stroke-width="1" stroke-opacity="0.3"/>
+  
+  <!-- Paint brush handle -->
+  <path d="M9 22L12 19L14 21L11 24C10.5 24.5 9.5 24.5 9 24C8.5 23.5 8.5 22.5 9 22Z" fill="#0a0f20"/>
+  
+  <!-- Paint brush ferrule -->
+  <rect x="12" y="17.5" width="2.5" height="3" rx="0.3" fill="#9ca3af" transform="rotate(45 13.25 19)"/>
+  
+  <!-- Paint brush bristles -->
+  <path d="M14 21L17 18L19 16L21 14C21.5 13.5 22.5 13.5 23 14C23.5 14.5 23.5 15.5 23 16L16 23L14 21Z" fill="#14b8a6"/>
+  
+  <!-- Paint drops -->
+  <circle cx="24" cy="10" r="1.2" fill="#eab308" opacity="0.8"/>
+  <circle cx="26" cy="12" r="0.8" fill="#14b8a6" opacity="0.7"/>
+  <circle cx="21" cy="9" r="0.6" fill="#eab308" opacity="0.6"/>
+</svg>
