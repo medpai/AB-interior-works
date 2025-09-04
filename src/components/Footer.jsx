@@ -7,13 +7,6 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="container footer-grid">
         <div>
-          <div className="brand brand-footer">
-            <span className="brand-mark">AB</span>
-            <span className="brand-text">AB Interior Works</span>
-          </div>
-          <p className="muted">Premium interior painting in Ottawa and surrounding areas.</p>
-        </div>
-        <div>
           <h4>Company</h4>
           <ul>
             <li><Link to="/">Home</Link></li>
@@ -31,19 +24,6 @@ export default function Footer() {
             <li>Ottawa, Ontario</li>
           </ul>
           <Link to="/contact" className="btn btn-primary small">Request a Free Quote</Link>
-        </div>
-        <div>
-          <h4>Service Areas</h4>
-          <ul>
-            <li>Ottawa</li>
-            <li>Kanata</li>
-            <li>Nepean</li>
-            <li>Orleans</li>
-            <li>Barrhaven</li>
-            <li>Stittsville</li>
-            <li>Gloucester</li>
-            <li>Downtown</li>
-          </ul>
         </div>
       </div>
       <div className="footer-bottom">

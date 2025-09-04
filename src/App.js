@@ -2,7 +2,7 @@ import React, { Suspense, lazy, useEffect } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import StickyCTA from './components/StickyCTA';
+import StickyCallIcon from './components/StickyCallIcon';
 import ScrollToTop from './components/ScrollToTop';
 import { Routes, Route, Navigate } from 'react-router-dom';
 
@@ -105,7 +105,7 @@ function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Suspense>
-      <StickyCTA />
+      <StickyCallIcon />
       <Footer />
     </div>
   );
