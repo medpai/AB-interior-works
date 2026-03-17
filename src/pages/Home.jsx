@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import SEO from '../components/SEO';
 import Reveal from '../components/Reveal';
-import ServiceAreaMap from '../components/ServiceAreaMap';
 import TestimonialsMarquee from '../components/sections/TestimonialsMarquee';
 import EstimatorMiniTool from '../components/sections/EstimatorMiniTool';
 import { ShinyButton } from '../components/ui/shiny-button';
