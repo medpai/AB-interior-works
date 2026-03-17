@@ -88,11 +88,11 @@ export default function Contact() {
 
   return (
     <main className="section">
-      <SEO title="Contact | AB Interior Works" description="Request a free interior painting quote in Ottawa. Friendly, fast responses from AB Interior Works." />
+      <SEO title="Contact | AB Interior Works" description="Request a free painting or renovation quote in Ottawa. Friendly, fast responses from AB Interior Works." />
       <div className="container">
         <Reveal as="header" className="page-header">
           <h1 className="page-title">Request a Free Quote</h1>
-          <p className="lead">Tell us about your project and we’ll respond promptly with next steps.</p>
+          <p className="lead">Tell us about your painting or renovation project and we'll respond promptly with next steps.</p>
         </Reveal>
 
         {estimate && (
@@ -126,11 +126,20 @@ export default function Contact() {
               <label htmlFor="service">Service</label>
               <select id="service" name="service" value={form.service} onChange={onChange}>
                 <option value="">Select a service</option>
-                <option>Walls & Ceilings</option>
-                <option>Trim & Doors</option>
-                <option>Cabinet Refinishing</option>
-                <option>Drywall Repair & Prep</option>
-                <option>Color Consultation</option>
+                <optgroup label="Painting">
+                  <option>Walls & Ceilings</option>
+                  <option>Trim & Doors</option>
+                  <option>Cabinet Refinishing</option>
+                  <option>Drywall Repair & Prep</option>
+                  <option>Color Consultation</option>
+                </optgroup>
+                <optgroup label="Renovation">
+                  <option>Kitchen Renovation</option>
+                  <option>Bathroom Renovation</option>
+                  <option>Basement Finishing</option>
+                  <option>Flooring Installation</option>
+                  <option>General Renovation</option>
+                </optgroup>
               </select>
             </div>
             <div className="field">

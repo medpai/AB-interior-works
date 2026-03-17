@@ -17,6 +17,17 @@ export default function Footer() {
           </ul>
         </div>
         <div>
+          <h4>Services</h4>
+          <ul>
+            <li><Link to="/services">Interior Painting</Link></li>
+            <li><Link to="/services">Cabinet Refinishing</Link></li>
+            <li><Link to="/services">Kitchen Renovation</Link></li>
+            <li><Link to="/services">Bathroom Renovation</Link></li>
+            <li><Link to="/services">Basement Finishing</Link></li>
+            <li><Link to="/services">Flooring Installation</Link></li>
+          </ul>
+        </div>
+        <div>
           <h4>Contact</h4>
           <ul className="contact-list">
             <li><a href="tel:+13432545205">(343) 254-5205</a></li>
@@ -28,7 +39,7 @@ export default function Footer() {
       </div>
       <div className="footer-bottom">
         <div className="container">
-          <p>© {year} AB Interior Works. All rights reserved.</p>
+          <p>© {year} AB Interior Works — Painting & Renovation. All rights reserved.</p>
         </div>
       </div>
     </footer>

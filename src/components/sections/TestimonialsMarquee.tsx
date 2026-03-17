@@ -24,18 +24,18 @@ const testimonials: Testimonial[] = [
     role: "Orleans • Cabinet Refinishing",
   },
   {
-    text: "Smooth process from quote to walkthrough. Highly recommend.",
+    text: "They transformed our outdated kitchen into a modern masterpiece. Couldn't be happier!",
     image:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&q=80&auto=format&fit=crop",
     name: "Emilia W.",
-    role: "Downtown • Accent Walls",
+    role: "Downtown • Kitchen Renovation",
   },
   {
-    text: "Attention to detail is unmatched. Zero mess each day.",
+    text: "Our bathroom looks like a spa now. Incredible tile work and attention to detail.",
     image:
       "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=80&q=80&auto=format&fit=crop",
     name: "Brandon F.",
-    role: "Barrhaven • Stairwell",
+    role: "Barrhaven • Bathroom Renovation",
   },
   {
     text: "Great color guidance and a beautiful durable finish.",
@@ -45,11 +45,11 @@ const testimonials: Testimonial[] = [
     role: "Gloucester • Living Room",
   },
   {
-    text: "Prep work was meticulous. The results speak for themselves.",
+    text: "The basement renovation exceeded all expectations. Now it's our favourite room in the house.",
     image:
       "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=80&q=80&auto=format&fit=crop",
     name: "Owen T.",
-    role: "Stittsville • Full Interior",
+    role: "Stittsville • Basement Finishing",
   },
   {
     text: "Transparent quote and a truly white‑glove experience.",
@@ -59,11 +59,11 @@ const testimonials: Testimonial[] = [
     role: "Vanier • Bedroom",
   },
   {
-    text: "The house feels new. Couldn’t be happier.",
+    text: "New hardwood floors throughout — perfectly installed and the house feels brand new.",
     image:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&q=80&auto=format&fit=crop",
     name: "Ethan G.",
-    role: "Orleans • Ceilings",
+    role: "Orleans • Flooring Installation",
   },
 ];
 
@@ -89,7 +89,7 @@ const TestimonialsMarquee = () => {
             What our clients say
           </h2>
           <p className="text-center mt-5 opacity-75">
-            See why Ottawa homeowners trust AB Interior Works.
+            See why Ottawa homeowners trust AB Interior Works for painting & renovation.
           </p>
           <a
             href="https://www.google.com/search?q=AB+Interior+Works+Ottawa+reviews"

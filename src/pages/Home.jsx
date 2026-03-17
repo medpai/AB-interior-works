@@ -5,7 +5,6 @@ import Reveal from '../components/Reveal';
 import TestimonialsMarquee from '../components/sections/TestimonialsMarquee';
 import EstimatorMiniTool from '../components/sections/EstimatorMiniTool';
 import { ShinyButton } from '../components/ui/shiny-button';
-// WetPaintButton is reserved for the sticky top bar only per design
 import TrustBadges from '../components/sections/TrustBadges';
 
 export default function Home() {
@@ -13,16 +12,16 @@ export default function Home() {
   return (
     <main>
       <SEO
-        title="AB Interior Works | Premium Interior Painting"
-        description="High-end interior painting in Ottawa: walls, ceilings, trim, doors, cabinet refinishing, and color consultation."
+        title="AB Interior Works | Premium Painting & Renovation in Ottawa"
+        description="Ottawa's trusted painting & renovation specialists: interior painting, kitchen & bathroom renovation, basement finishing, flooring, and more. Free quotes."
       />
-      <section className="hero" aria-label="AB Interior Works premium interior painting">
+      <section className="hero" aria-label="AB Interior Works premium painting and renovation">
         <div className="hero-bg" style={{
           backgroundImage: "url('https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1974&auto=format&fit=crop')"
         }} />
         <div className="container hero-content">
-          <Reveal as="h1" className="display">Elevate Your Home with Flawless Interior Painting</Reveal>
-          <Reveal as="p" className="lead" delay={100}>High-end finishes. Impeccable prep. Minimal disruption. Ottawa’s trusted interior painting specialists.</Reveal>
+          <Reveal as="h1" className="display">Premium Painting & Renovation for Your Home</Reveal>
+          <Reveal as="p" className="lead" delay={100}>From flawless interior painting to full kitchen & bathroom renovations — we transform Ottawa homes with expert craftsmanship and minimal disruption.</Reveal>
           <Reveal as="div" className="actions" delay={200}>
             <ShinyButton onClick={() => navigate('/contact')}>Get a Free Quote</ShinyButton>
             <a
@@ -43,12 +42,12 @@ export default function Home() {
             <Link to="/portfolio" className="btn btn-ghost btn-lg">See Our Work</Link>
           </Reveal>
           <Reveal as="p" className="microcopy" delay={220}>
-            Talk to a painting specialist now — friendly advice and ballpark pricing in minutes.
+            Talk to a specialist now — friendly advice and ballpark pricing in minutes.
           </Reveal>
           <Reveal as="div" className="trust" delay={300}>
-            <span>Fully insured</span>
-            <span>Dust-free prep</span>
-            <span>Color consultation</span>
+            <span>Fully Insured</span>
+            <span>Expert Renovations</span>
+            <span>Free Color Consultation</span>
           </Reveal>
         </div>
       </section>
@@ -63,13 +62,12 @@ export default function Home() {
             <Reveal className="card feature feature-card">
               <div className="feature-icon-wrap">
                 <svg className="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
-                  <rect x="7" y="7" width="10" height="10" rx="2" />
-                  <rect x="5" y="5" width="10" height="10" rx="2" opacity="0.5" />
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
                 </svg>
               </div>
               <div className="feature-content">
-                <h3 className="feature-title">Meticulous Prep</h3>
-                <p>Walls, trim, and surfaces are repaired, sanded, and primed to perfection for a flawless final coat.</p>
+                <h3 className="feature-title">Expert Craftsmanship</h3>
+                <p>From precision painting to full-scale renovations — every project is executed with meticulous attention to detail and professional-grade techniques.</p>
               </div>
             </Reveal>
             <Reveal className="card feature feature-card" delay={100}>
@@ -79,8 +77,8 @@ export default function Home() {
                 </svg>
               </div>
               <div className="feature-content">
-                <h3 className="feature-title">Premium Materials</h3>
-                <p>We use top-tier paints with low-VOC, durable finishes for beautiful, long‑lasting results.</p>
+                <h3 className="feature-title">Premium Materials & Finishes</h3>
+                <p>We use top-tier paints, tiles, fixtures, and building materials for beautiful, long-lasting results you'll enjoy for years.</p>
               </div>
             </Reveal>
             <Reveal className="card feature feature-card" delay={200}>
@@ -92,7 +90,7 @@ export default function Home() {
               </div>
               <div className="feature-content">
                 <h3 className="feature-title">White‑Glove Experience</h3>
-                <p>Clean, respectful crews. Clear timelines. We treat your home like our own—start to finish.</p>
+                <p>Clean, respectful crews. Clear timelines. We treat your home like our own — from initial consultation to final walkthrough.</p>
               </div>
             </Reveal>
           </div>
@@ -102,8 +100,16 @@ export default function Home() {
       <section className="section alt" id="services-preview">
         <div className="container">
           <Reveal as="div" className="section-header">
-            <h2 className="section-title">Interior Painting Services</h2>
+            <h2 className="section-title">Our Services</h2>
             <Link to="/services" className="btn btn-ghost">View all services</Link>
+          </Reveal>
+
+          {/* Painting Services */}
+          <Reveal as="p" className="service-category-label">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M19 11H5a2 2 0 00-2 2v7a2 2 0 002 2h14a2 2 0 002-2v-7a2 2 0 00-2-2zM12 11V5a3 3 0 00-3-3H7" />
+            </svg>
+            Painting
           </Reveal>
           <div className="grid-3">
             <Reveal as="article" className="card service-card">
@@ -128,6 +134,38 @@ export default function Home() {
               </div>
             </Reveal>
           </div>
+
+          {/* Renovation Services */}
+          <Reveal as="p" className="service-category-label" delay={250}>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
+              <polyline points="9 22 9 12 15 12 15 22" />
+            </svg>
+            Renovation
+          </Reveal>
+          <div className="grid-3">
+            <Reveal as="article" className="card service-card" delay={300}>
+              <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=1974&auto=format&fit=crop" alt="Modern kitchen renovation" />
+              <div className="card-body">
+                <h3>Kitchen Renovation</h3>
+                <p>Complete kitchen transformations — custom cabinetry, countertops, backsplashes, and modern layouts.</p>
+              </div>
+            </Reveal>
+            <Reveal as="article" className="card service-card" delay={400}>
+              <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=1974&auto=format&fit=crop" alt="Luxury bathroom renovation" />
+              <div className="card-body">
+                <h3>Bathroom Renovation</h3>
+                <p>Spa-inspired bathrooms with premium tiling, modern fixtures, and elegant vanities.</p>
+              </div>
+            </Reveal>
+            <Reveal as="article" className="card service-card" delay={500}>
+              <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=1974&auto=format&fit=crop" alt="Finished basement with modern design" />
+              <div className="card-body">
+                <h3>Basement Finishing</h3>
+                <p>Turn unused space into beautiful living areas — home offices, entertainment rooms, or rental suites.</p>
+              </div>
+            </Reveal>
+          </div>
         </div>
       </section>
 
@@ -149,7 +187,7 @@ export default function Home() {
               <span>Your Direct Contact</span>
             </div>
             <h2 className="process-title">Talk Directly to a Specialist</h2>
-            <p className="process-subtitle">No call centers, no runaround. Reach Anas directly for a fast, honest estimate on your project.</p>
+            <p className="process-subtitle">No call centers, no runaround. Reach Anas directly for a fast, honest estimate on your painting or renovation project.</p>
           </Reveal>
           <Reveal as="div" delay={150} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '40px', flexWrap: 'wrap' }}>
             <div className="card" style={{
@@ -186,7 +224,7 @@ export default function Home() {
                 </li>
                 <li style={{ display: 'flex', alignItems: 'center', gap: '10px', color: 'var(--text)' }}>
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5" /></svg>
-                  Friendly, no-pressure consultations
+                  Painting & renovation under one roof
                 </li>
               </ul>
               <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
@@ -214,8 +252,8 @@ export default function Home() {
 
       <section className="section cta-band">
         <div className="container cta-content">
-          <h2>Ready to refresh your space?</h2>
-          <p>Get a fast, accurate quote with expert recommendations.</p>
+          <h2>Ready to transform your space?</h2>
+          <p>Whether it's a fresh coat of paint or a complete renovation — get a fast, accurate quote with expert recommendations.</p>
           <div className="flex flex-wrap gap-3">
             <Link to="/contact" className="btn btn-primary btn-lg">Request Your Quote</Link>
             <a
