@@ -46,7 +46,7 @@ export default function Header() {
             Get a Quote
           </NavLink>
           <WetPaintButton
-            aria-label="Call AB Interior Works (343) 254-5205"
+            aria-label="Call Bugnot Painting and Renovation (343) 254-5205"
             className="hidden lg:flex items-center gap-2 px-4 py-2.5 text-sm"
             onClick={() => {
               if (typeof window !== 'undefined' && typeof window.__trackPhoneCall === 'function') {

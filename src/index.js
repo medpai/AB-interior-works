@@ -21,7 +21,7 @@ root.render(
 if (process.env.NODE_ENV === 'development') {
   try {
     if (typeof window !== 'undefined' && window.__QUOTE_WEBHOOK && !sessionStorage.getItem('ntfyTestSent')) {
-      const text = 'AB Interior Works — ntfy test from website (auto)';
+      const text = 'Bugnot Painting and Renovation — ntfy test from website (auto)';
       const url = window.__QUOTE_WEBHOOK;
       // First try with rich headers (title/tags), then fall back to minimal request
       fetch(url, {

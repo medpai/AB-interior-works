@@ -79,7 +79,7 @@ export default function Services() {
 
   return (
     <main className="section">
-      <SEO title="Painting & Renovation Services | AB Interior Works" description="Interior painting, cabinet refinishing, kitchen & bathroom renovation, basement finishing, flooring installation, and more in Ottawa." />
+      <SEO title="Painting & Renovation Services | Bugnot Painting and Renovation" description="Interior painting, cabinet refinishing, kitchen & bathroom renovation, basement finishing, flooring installation, and more in Ottawa." />
       <div className="container">
         <Reveal as="header" className="page-header">
           <h1 className="page-title">Painting & Renovation Services</h1>

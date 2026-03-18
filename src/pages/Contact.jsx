@@ -88,7 +88,7 @@ export default function Contact() {
 
   return (
     <main className="section">
-      <SEO title="Contact | AB Interior Works" description="Request a free painting or renovation quote in Ottawa. Friendly, fast responses from AB Interior Works." />
+      <SEO title="Contact | Bugnot Painting and Renovation" description="Request a free painting or renovation quote in Ottawa. Friendly, fast responses from Bugnot Painting and Renovation." />
       <div className="container">
         <Reveal as="header" className="page-header">
           <h1 className="page-title">Request a Free Quote</h1>

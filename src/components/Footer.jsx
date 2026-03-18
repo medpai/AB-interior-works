@@ -39,7 +39,7 @@ export default function Footer() {
       </div>
       <div className="footer-bottom">
         <div className="container">
-          <p>© {year} AB Interior Works — Painting & Renovation. All rights reserved.</p>
+          <p>© {year} Bugnot Painting and Renovation — Painting & Renovation. All rights reserved.</p>
         </div>
       </div>
     </footer>

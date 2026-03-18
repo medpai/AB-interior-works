@@ -12,7 +12,7 @@ export default function StickyCTA() {
           <a
             href="tel:+13432545205"
             className="flex-1 flex items-center justify-center gap-2 sm:gap-3 py-4 sm:py-5 text-teal-700 font-semibold text-sm sm:text-base transition-colors hover:bg-teal-50 active:bg-teal-100"
-            aria-label="Call AB Interior Works (343) 254-5205"
+            aria-label="Call Bugnot Painting and Renovation (343) 254-5205"
             onClick={() => {
               if (typeof window !== 'undefined' && typeof window.__trackPhoneCall === 'function') {
                 window.__trackPhoneCall('StickyCTA Call (343) 254-5205', '+13432545205');

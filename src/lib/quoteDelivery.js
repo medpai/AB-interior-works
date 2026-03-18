@@ -15,7 +15,7 @@ export async function sendQuoteRequest({ form, estimate, source = 'website' }) {
   // Build payload for email provider (Web3Forms)
   const payload = {
     access_key: accessKey,
-    subject: 'New Free Quote Request — AB Interior Works',
+    subject: 'New Free Quote Request — Bugnot Painting and Renovation',
     from_name: form.name,
     from_email: form.email,
     // Standard field names for compatibility

@@ -89,7 +89,7 @@ const TestimonialsMarquee = () => {
             What our clients say
           </h2>
           <p className="text-center mt-5 opacity-75">
-            See why Ottawa homeowners trust AB Interior Works for painting & renovation.
+            See why Ottawa homeowners trust Bugnot Painting and Renovation for painting & renovation.
           </p>
           <a
             href="https://www.google.com/search?q=AB+Interior+Works+Ottawa+reviews"

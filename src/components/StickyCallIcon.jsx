@@ -11,7 +11,7 @@ export default function StickyCallIcon() {
           border: '1px solid rgba(255,255,255,0.2)',
           boxShadow: '0 8px 32px rgba(20,184,166,0.3), inset 0 1px 0 rgba(255,255,255,0.3)'
         }}
-        aria-label="Call AB Interior Works (343) 254-5205"
+        aria-label="Call Bugnot Painting and Renovation (343) 254-5205"
         onClick={() => {
           if (typeof window !== 'undefined' && typeof window.__trackPhoneCall === 'function') {
             window.__trackPhoneCall('Sticky Call Icon (343) 254-5205', '+13432545205');

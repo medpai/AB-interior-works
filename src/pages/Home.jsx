@@ -12,10 +12,10 @@ export default function Home() {
   return (
     <main>
       <SEO
-        title="AB Interior Works | Premium Painting & Renovation in Ottawa"
+        title="Bugnot Painting and Renovation | Premium Painting & Renovation in Ottawa"
         description="Ottawa's trusted painting & renovation specialists: interior painting, kitchen & bathroom renovation, basement finishing, flooring, and more. Free quotes."
       />
-      <section className="hero" aria-label="AB Interior Works premium painting and renovation">
+      <section className="hero" aria-label="Bugnot Painting and Renovation premium painting and renovation">
         <div className="hero-bg" style={{
           backgroundImage: "url('https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1974&auto=format&fit=crop')"
         }} />
@@ -27,7 +27,7 @@ export default function Home() {
             <a
               href="tel:+13432545205"
               className="btn btn-call btn-lg"
-              aria-label="Call AB Interior Works (343) 254-5205"
+              aria-label="Call Bugnot Painting and Renovation (343) 254-5205"
               onClick={() => {
                 if (typeof window !== 'undefined' && typeof window.__trackPhoneCall === 'function') {
                   window.__trackPhoneCall('Call (343) 254-5205', '+13432545205');
@@ -57,7 +57,7 @@ export default function Home() {
 
       <section className="section" id="why-us">
         <div className="container">
-          <h2 className="section-title">Why Choose AB Interior Works</h2>
+          <h2 className="section-title">Why Choose Bugnot Painting and Renovation</h2>
           <div className="grid-3 features-grid">
             <Reveal className="card feature feature-card">
               <div className="feature-icon-wrap">
@@ -259,7 +259,7 @@ export default function Home() {
             <a
               href="tel:+13432545205"
               className="btn btn-call btn-lg"
-              aria-label="Call AB Interior Works (343) 254-5205"
+              aria-label="Call Bugnot Painting and Renovation (343) 254-5205"
               onClick={() => {
                 if (typeof window !== 'undefined' && typeof window.__trackPhoneCall === 'function') {
                   window.__trackPhoneCall('Call (343) 254-5205', '+13432545205');

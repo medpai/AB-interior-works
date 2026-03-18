@@ -28,7 +28,7 @@ export default function Portfolio() {
 
   return (
     <main className="section">
-      <SEO title="Portfolio | AB Interior Works" description="A gallery of recent painting and renovation projects across Ottawa: kitchens, bathrooms, basements, living rooms, flooring, and refined details." />
+      <SEO title="Portfolio | Bugnot Painting and Renovation" description="A gallery of recent painting and renovation projects across Ottawa: kitchens, bathrooms, basements, living rooms, flooring, and refined details." />
       <div className="container">
         <Reveal as="header" className="page-header">
           <h1 className="page-title">Project Portfolio</h1>
